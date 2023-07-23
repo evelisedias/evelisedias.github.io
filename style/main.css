@@ -10,6 +10,7 @@
     list-style: none;
     box-sizing: border-box;
 }
+/*cabeçalho*/
 nav{
     display: flex;
     background-color: var(--cinza);
@@ -61,4 +62,20 @@ nav ul li a{
 a.active, a:hover{
     background: var(--preto);
     transition: .5s;
+}
+
+/*body*/
+
+.about_me{
+    display: flexbox;
+
+}
+.about{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.sobre{
+    width: 650px;
+    margin-top: 15px;
+    margin-left: 100px;
 }
