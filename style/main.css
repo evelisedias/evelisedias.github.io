@@ -46,6 +46,7 @@ nav ul {
     float: right;
     margin-left: 350px;
     margin-top: 25px;
+    cursor: pointer;
 }
 nav ul li{
     display: inline-block;
@@ -66,16 +67,29 @@ a.active, a:hover{
 
 /*body*/
 
-.about_me{
-    display: flexbox;
-
-}
-.about{
-    margin-top: 20px;
-    margin-left: 150px;
-}
-.sobre{
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .about {
+    margin-top: 8vh;
+    margin-left: 10vh;
+  }
+  .content{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .sobre {
     width: 650px;
-    margin-top: 15px;
-    margin-left: 100px;
-}
+    margin-top: 5vh; 
+    margin-left: 10vh;
+  }
+  
+  .selfImg {
+    border-radius: 100%;
+    width: 280px;
+    height: 280px;
+    margin-left: 20px; 
+  }
